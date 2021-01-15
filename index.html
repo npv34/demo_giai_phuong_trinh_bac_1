@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    // tao mot funtion co ten tinh
+    function tinh(){
+        //Code thuat toan
+        //vi du lay gia tri tu ban phim su dung ham promt()
+        let a = prompt('nhap a: ');
+        //b
+        let b = prompt('nhap b: ')
+        //c 
+        if(a == 0) {
+            // neu dk dung
+            if(b == 0) {
+                //neu dk dung
+                alert('vo so nghiem')
+            } else {
+                alert('vo nghiem')
+            }
+        } else {
+            x = -b/a;
+            alert('nghiem x=' + x)
+        }
+    }
+</script>
+<body>
+    <button onclick="tinh()">Click</button>
+    <!-- <script src="js/my.js"></script> -->
+</body>
+</html>
